@@ -59,6 +59,16 @@ body {
     margin-right: auto;
   }
 }
+@media screen and (max-width: 479px) {
+  .footer-subscribe-input {
+    width: 290px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer-subscribe-input {
+    width: 398px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 738px;
@@ -82,6 +92,7 @@ body {
 }
 
 /*==============================MOBILE MENU======================================*/
+
 @media screen and (max-width: 767px) {
   .top-header-container {
     display: flex;
@@ -250,7 +261,7 @@ body {
     padding-bottom: 112px;
   }
   .hero {
-    width: 320px;
+    width: 100%;
     height: 80px;
     margin-bottom: 72px;
   }
@@ -348,8 +359,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 72px;
-    margin-left: 82px;
-    margin-right: 82px;
   }
   .people-container {
     text-align: center;
@@ -581,6 +590,7 @@ body {
     justify-content: center;
   }
   .footer-subscribe-form {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -594,7 +604,6 @@ body {
     margin-bottom: 16px;
   }
   .footer-subscribe-input {
-    width: 398px;
     height: 40px;
     font-weight: 400;
     font-size: 12px;
@@ -858,6 +867,7 @@ body {
     border: solid #404bbf;
   }
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
   screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
@@ -893,8 +903,8 @@ body {
   }
 
   .top-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     border-bottom: 1px solid #e7e9fc;
   }
   .top-header-container {
@@ -958,7 +968,7 @@ body {
     background-color: rgba(64, 75, 191, 1);
     position: absolute;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 26px;
   }
   .menu-link-portfolio::after {
     content: "";
@@ -986,6 +996,10 @@ body {
   .addres-contact:focus {
     color: #404bbf;
   }
+  .addres-studio-email {
+    margin-bottom: 12px;
+  }
+
   /*HERO*/
   .section-hero {
     padding-top: 112px;
@@ -1168,7 +1182,7 @@ body {
   }
 
   .container-customers-list {
-    width: 190px;
+    width: 168px;
     height: 88px;
     padding: 16px 32px;
     border: 1px solid #8e8f99;
@@ -1595,9 +1609,6 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .addres-tel:not(:last-child) {
-    margin-bottom: 12px;
-  }
   .icon-features-svg {
     display: none;
   }
@@ -1706,7 +1717,7 @@ body {
     background-color: rgba(64, 75, 191, 1);
     position: absolute;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 26px;
   }
   .menu-link-portfolio::after {
     content: "";
